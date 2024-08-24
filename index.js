@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Initialize the OpenAI client
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY, // API key from environment variables
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 // Initialize AWS Polly
@@ -60,8 +60,8 @@ app.post('/chat', async (req, res) => {
 
         // Send both text and audio as a response
         res.json({
-          response: gptMessage,
-          audio: audioBase64,
+          response: gptMessage,  // Text response from OpenAI
+          audio: audioBase64,    // Audio response from Polly in base64
         });
       }
     });
