@@ -1,6 +1,3 @@
-Certainly! Below is a comprehensive guide and documentation that you can add to your GitHub repository's README file. This will help users understand how to set up, configure, and run your project, including the integration with OpenAI and AWS Polly.
-
----
 
 # Chat with Historical Figures
 
@@ -34,13 +31,15 @@ This project allows users to chat with historical figures, powered by OpenAI's G
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/hboni123/echoes-of-era.git
 cd your-repo-name
 ```
 
 ### Installing Dependencies
 
 Navigate to the backend and frontend directories and install the required dependencies:
+
+Link to frontend directory: [echoes-of-era-frontend](https://github.com/hboni123/echoes-of-era-frontend)
 
 ```bash
 # Backend
